@@ -13,6 +13,8 @@
 // const page = 1;
 // const searchQuery = "";
 
+import createCharacterCard from "./components/card/card.js";
+
 const url = "https://rickandmortyapi.com/api/character";
 
 async function fetchDataAndRender() {
