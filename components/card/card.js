@@ -1,6 +1,7 @@
 export function createCharacterCard() {}
 
-<li class="card">
+{
+  /* <li class="card">
   <div class="card__image-container">
     <img
       class="card__image"
@@ -20,4 +21,5 @@ export function createCharacterCard() {}
       <dd class="card__info-description">51</dd>
     </dl>
   </div>
-</li>;
+</li> */
+}
