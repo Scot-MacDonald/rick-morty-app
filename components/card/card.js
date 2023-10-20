@@ -1,18 +1,18 @@
-export function createCharacterCard() {
-  const card = document.createElement("li");
-  card.classList.add("card");
-  card.innerHTML = `
-  <div class="card__image-container">
-            <img
-              class="card__image"
-              src="${character.image}"
-              alt=${character.name}
-            />
-            <h2 class="card__title">${character.name}</h2>
-          </div>
-  `;
-  return card;
-}
+// export function createCharacterCard() {
+//   const card = document.createElement("li");
+//   card.classList.add("card");
+//   card.innerHTML = `
+//   <div class="card__image-container">
+//             <img
+//               class="card__image"
+//               src="${character.image}"
+//               alt=${character.name}
+//             />
+//             <h2 class="card__title">${character.name}</h2>
+//           </div>
+//   `;
+//   return card;
+// }
 
 // const cards = "Rick and Morty";
 
