@@ -6,7 +6,7 @@ const cardContainer = document.querySelector('[data-js="card-container"]');
 const navigation = document.querySelector('[data-js="navigation"]');
 const prevButton = document.querySelector('[data-js="button-prev"]');
 const nextButton = document.querySelector('[data-js="button-next"]');
-// const pagination = document.querySelector('[data-js="pagination"]');
+const pagination = document.querySelector('[data-js="pagination"]');
 
 // // States
 const maxPage = 42;
@@ -31,6 +31,7 @@ async function fetchDataAndRender(counter) {
       });
 
       page = counter;
+      updatePagination();
     } else {
       console.error("No results found in the API response");
     }
@@ -45,6 +46,10 @@ async function fetchDataAndRender(counter) {
 //   fetchDataAndRender(counter);
 // });
 
+function updatePagination() {
+  pagination.textContent = `${page} / ${maxPage}`;
+}
+
 nextButton.addEventListener("click", () => {
   if (page < maxPage) {
     fetchDataAndRender(page + 1);
@@ -58,3 +63,4 @@ prevButton.addEventListener("click", () => {
 });
 
 fetchDataAndRender(page);
+updatePagination();
