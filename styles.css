@@ -18,13 +18,21 @@
 body {
   font-family: var(--font-family);
   color: var(--color-primary);
-  padding: 20px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 
 main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background: black;
 }
 
 .title {

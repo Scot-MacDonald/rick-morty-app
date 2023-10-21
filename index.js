@@ -8,7 +8,7 @@ const prevButton = document.querySelector('[data-js="button-prev"]');
 const nextButton = document.querySelector('[data-js="button-next"]');
 const pagination = document.querySelector('[data-js="pagination"]');
 
-// // States
+//States
 const maxPage = 42;
 let page = 1;
 // const searchQuery = "";
