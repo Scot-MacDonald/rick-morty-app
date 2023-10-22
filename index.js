@@ -32,6 +32,10 @@ async function fetchDataAndRender(counter) {
 
       page = counter;
       updatePagination();
+
+      setTimeout(() => {
+        scrollToTop();
+      }, 100);
     } else {
       console.error("No results found in the API response");
     }
@@ -45,6 +49,10 @@ async function fetchDataAndRender(counter) {
 //   ++counter;
 //   fetchDataAndRender(counter);
 // });
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
 function updatePagination() {
   pagination.textContent = `${page} / ${maxPage}`;
