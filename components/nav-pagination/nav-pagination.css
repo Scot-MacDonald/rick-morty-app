@@ -8,4 +8,7 @@
   display: grid;
   place-items: center;
   flex: 1;
+  background: black;
+  color: #bcdc45;
+  font-size: x-large;
 }

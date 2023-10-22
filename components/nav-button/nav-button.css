@@ -1,8 +1,14 @@
 .button {
   border: none;
   flex: 1;
+  background-color: #42b4ca;
+  color: #bcdc45;
+  font-size: x-large;
+  transition: ease 0.5s;
 }
 
 .button:hover {
-  background-color: var(--color-secondary);
+  background-color: #bcdc45;
+  color: #42b4ca;
+  transition: ease 0.5s;
 }
