@@ -1,4 +1,6 @@
 .search-bar-container {
+  justify-content: center;
+  display: flex;
 }
 
 .search-bar {
