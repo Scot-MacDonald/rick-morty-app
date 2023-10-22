@@ -25,7 +25,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #7c988d;
+  background-color: black;
   flex-wrap: wrap;
 }
 header img {
@@ -36,7 +36,13 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #7c988d;
+  background: black;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .title {
