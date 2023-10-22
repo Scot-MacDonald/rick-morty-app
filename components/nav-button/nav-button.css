@@ -5,6 +5,7 @@
   color: #bcdc45;
   font-size: x-large;
   transition: ease 0.5s;
+  font-weight: 700;
 }
 
 .button:hover {
