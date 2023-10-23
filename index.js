@@ -1,9 +1,9 @@
 const cardContainer = document.querySelector('[data-js="card-container"]');
-const searchBarContainer = document.querySelector(
-  '[data-js="search-bar-container"]'
-);
+// const searchBarContainer = document.querySelector(
+//   '[data-js="search-bar-container"]'
+// );
 const searchBar = document.querySelector('[data-js="search-bar"]');
-const navigation = document.querySelector('[data-js="navigation"]');
+// const navigation = document.querySelector('[data-js="navigation"]');
 const prevButton = document.querySelector('[data-js="button-prev"]');
 const nextButton = document.querySelector('[data-js="button-next"]');
 const pagination = document.querySelector('[data-js="pagination"]');
@@ -30,7 +30,7 @@ async function fetchDataAndRender(counter) {
 
       page = counter;
 
-      // Set maxPage based on the number of pages in the API response
+      // Set maxPage based on the number of pages in the API response chatgpt help
       if (data.info && data.info.pages) {
         maxPage = data.info.pages;
       }
